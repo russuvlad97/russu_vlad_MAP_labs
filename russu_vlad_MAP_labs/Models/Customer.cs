@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace russu_vlad_lab2.Models
+namespace russu_vlad_MAP_labs.Models
 {
     public class Customer
     {

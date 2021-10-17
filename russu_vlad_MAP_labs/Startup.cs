@@ -9,10 +9,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using russu_vlad_lab2.Data;
+using russu_vlad_MAP_labs.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace russu_vlad_lab2
+namespace russu_vlad_MAP_labs
 {
     public class Startup
     {

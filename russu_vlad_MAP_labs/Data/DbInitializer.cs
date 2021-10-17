@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using russu_vlad_lab2.Models;
+using russu_vlad_MAP_labs.Models;
 
-namespace russu_vlad_lab2.Data
+namespace russu_vlad_MAP_labs.Data
 {
     public class DbInitializer
     {
@@ -44,10 +44,10 @@ namespace russu_vlad_lab2.Data
 
             var orders = new Order[]
             {
-                new Order{BookID=1,CustomerID=1050},
-                new Order{BookID=3,CustomerID=1045},
-                new Order{BookID=1,CustomerID=1045},
-                new Order{BookID=2,CustomerID=1050},
+                new Order{BookID=1,CustomerID=1050,OrderDate=new DateTime(2021, 10, 8)},
+                new Order{BookID=1,CustomerID=1045,OrderDate=new DateTime(2021,  4, 8)},
+                new Order{BookID=2,CustomerID=1050,OrderDate=new DateTime(2021, 11, 8)},
+                new Order{BookID=3,CustomerID=1045,OrderDate=new DateTime(2021,  9, 8)},
             };
             foreach (Order e in orders)
             {
@@ -57,3 +57,4 @@ namespace russu_vlad_lab2.Data
         }
     }
 }
+ 
