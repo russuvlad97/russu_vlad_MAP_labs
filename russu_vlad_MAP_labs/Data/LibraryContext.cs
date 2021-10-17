@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using russu_vlad_lab2.Models;
+using russu_vlad_MAP_labs.Models;
 
-namespace russu_vlad_lab2.Data
+namespace russu_vlad_MAP_labs.Data
 {
     public class LibraryContext:DbContext
     {

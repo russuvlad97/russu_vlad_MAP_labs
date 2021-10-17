@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace russu_vlad_lab2.Models
+namespace russu_vlad_MAP_labs.Models
 {
     public class Book
     {

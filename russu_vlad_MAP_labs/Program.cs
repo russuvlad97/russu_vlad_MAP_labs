@@ -8,9 +8,9 @@ using System.Linq;
 using System.Threading.Tasks;
 
 using Microsoft.Extensions.DependencyInjection;
-using russu_vlad_lab2.Data;
+using russu_vlad_MAP_labs.Data;
 
-namespace russu_vlad_lab2
+namespace russu_vlad_MAP_labs
 {
     public class Program
     {

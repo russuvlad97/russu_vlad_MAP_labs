@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using russu_vlad_lab2.Models;
+using russu_vlad_MAP_labs.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace russu_vlad_lab2.Controllers
+namespace russu_vlad_MAP_labs.Controllers
 {
     public class HomeController : Controller
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace russu_vlad_lab2.Models
+namespace russu_vlad_MAP_labs.Models
 {
     public class Order
     {
@@ -11,6 +11,7 @@ namespace russu_vlad_lab2.Models
         public int CustomerID { get; set; }
         public int BookID { get; set; }
 
+        public DateTime OrderDate { get; set; }
         public Customer Customer { get; set; }
         public Book Book { get; set; }
     }
